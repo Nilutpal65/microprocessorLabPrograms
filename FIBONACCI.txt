@@ -1,0 +1,37 @@
+LDA 0000
+
+SUI 02
+
+MOV D,A
+
+LXI H, 0001
+
+MVI M,00
+
+INX H
+
+MVI M, 01
+
+INX H
+
+MVI B,00
+
+MVI C, 01
+
+Loop: MOV A,B
+
+ADD C
+
+MOV B,C
+
+MOV C,A
+
+MOV M,A
+
+INX H
+
+DCR D
+
+JNZ Loop
+
+HLT

@@ -1,0 +1,30 @@
+
+LDA 0000
+
+MOV C,A
+
+LXI H, 0001
+
+SUB A
+
+MOV B,A
+Loop: ADD M
+
+
+JNC Skip
+
+INR B
+
+Skip: INX H
+
+DCR C
+
+JNZ Loop
+
+STA 0010
+
+MOV A,B
+
+STA 0012
+
+HLT

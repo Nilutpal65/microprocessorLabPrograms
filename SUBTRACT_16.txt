@@ -1,0 +1,23 @@
+MVI C,00
+
+
+LHLD 0000
+
+XCHG
+
+LHLD 0002
+
+MOV A,E
+
+SUB L
+
+
+STA 0004
+
+MOV A,D
+
+SBB H
+
+STA 0006
+
+HLT
