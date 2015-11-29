@@ -1,13 +1,13 @@
 # microprocessorLabPrograms
 Solved problems in Intel 8085 microprocessor lab classes using GNUSim8085 in linux environment .
 The programs are :
-1 . Addition of 16 bit numbers
-2 . Sort an array of numbers in ascending order
-3 . Sort an array of numbers in descending order
-4 . Calculate factorial of a number
-5 . Calculate fibonacci series
-6 . Multiply two 16 bit numbers
-7 . Subtract two 16 bit numbers
-8 . Sum of series of numbers
-9 . Division of 8 bit numbers
-10 . Multiplication of 8 bit numbers
+* Addition of 16 bit numbers
+* Sort an array of numbers in ascending order
+* Sort an array of numbers in descending order
+* Calculate factorial of a number
+* Calculate fibonacci series
+* Multiply two 16 bit numbers
+* Subtract two 16 bit numbers
+* Sum of series of numbers
+* Division of 8 bit numbers
+* Multiplication of 8 bit numbers
